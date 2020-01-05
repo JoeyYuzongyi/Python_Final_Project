@@ -22,6 +22,8 @@ def story():
 ```
 ## 第3个修饰符建立“/story”URL，story()调用render_template，然后将结果story.html返回
 
+![app1](https://github.com/JoeyYuzongyi/Python_Final_Project/blob/master/app1.png)
+
 ```
 @app.route('/search',methods=['POST'])
 def search():
@@ -48,6 +50,8 @@ def search():
     return render_template('search.html')
 ```
 ## 第4个修饰符建立“/search”URL，search()调用render_template，然后将结果search.html返回
+
+![app2](https://github.com/JoeyYuzongyi/Python_Final_Project/blob/master/app2.png)
 
 ```
 @app.route('/afr', methods=['GET'])
